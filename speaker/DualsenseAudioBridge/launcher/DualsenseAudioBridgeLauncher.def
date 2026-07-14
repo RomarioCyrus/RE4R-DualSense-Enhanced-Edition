@@ -1,0 +1,6 @@
+LIBRARY DualsenseAudioBridgeLauncher.dll
+
+EXPORTS
+LaunchBridge
+reframework_plugin_initialize
+reframework_plugin_required_version

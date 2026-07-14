@@ -1,0 +1,156 @@
+DualSense Enhanced Edition for RE4R
+Third-Party Licenses
+====================================================
+
+This mod bundles the following open-source components: sound extraction
+tools (ree-pak-cli, vgmstream), the native controller transport libraries
+(duaLib, hidapi), and the audio bridge runtime (NAudio).
+No Capcom audio assets are included or distributed.
+
+The package includes original healing cues generated with AI tools by the mod
+author, plus original synthesized haptic tones and haptic derivatives of those
+author-owned cues. These are mod assets, not Capcom or Sony audio assets.
+
+
+----------------------------------------------------
+ree-pak-cli
+https://github.com/eigeen/ree-pak-rs
+----------------------------------------------------
+MIT License
+
+Copyright (c) eigeen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+----------------------------------------------------
+vgmstream
+https://github.com/vgmstream/vgmstream
+----------------------------------------------------
+Copyright (c) 2008-2025 Adam Gashlin, Fastelbja, Ronny Elfert, bnnm,
+                        Christopher Snowhill, NicknineTheEagle, bxaimc,
+                        Thealexbarney, CyberBotX, et al
+
+Portions Copyright (c) 2004-2008, Marko Kreen
+Portions Copyright 2001-2007  jagarl / Kazunori Ueno <jagarl@creator.club.ne.jp>
+Portions Copyright (c) 1998, Justin Frankel/Nullsoft Inc.
+Portions Copyright (C) 2006 Nullsoft, Inc.
+Portions Copyright (c) 2005-2007 Paul Hsieh
+Portions Copyright (C) 2000-2004 Leshade Entis, Entis-soft.
+Portions Public Domain originating with Sun Microsystems
+
+Permission to use, copy, modify, and distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
+----------------------------------------------------
+duaLib (bundled as duaLib.dll, used in modified form)
+https://github.com/WujekFoliarz/duaLib
+----------------------------------------------------
+MIT License
+
+Copyright (c) 2025 WujekFoliarz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+----------------------------------------------------
+HIDAPI (bundled as hidapi.dll)
+https://github.com/libusb/hidapi
+----------------------------------------------------
+HIDAPI - Multi-Platform library for communication with HID devices.
+
+Copyright 2009, Alan Ott, Signal 11 Software.
+All Rights Reserved.
+
+This software may be used by anyone for any reason so long as the
+copyright notice in the source files remains intact.
+
+(HIDAPI is available under the original HIDAPI license, BSD, or GPLv3;
+this project uses it under the original HIDAPI license above.)
+
+
+----------------------------------------------------
+NAudio (used by DualsenseAudioBridge.exe)
+https://github.com/naudio/NAudio
+----------------------------------------------------
+MIT License
+
+Copyright (c) 2020 Mark Heath and Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+----------------------------------------------------
+Other notices and credits
+----------------------------------------------------
+- DSE_Required_Banks.list is generated by this project and contains only
+  the Wwise bank paths required by the mod; pak path names originate from
+  community-maintained RE Engine pak file name lists.
+- REFramework by praydog (required separately, not bundled):
+  https://github.com/praydog/REFramework
+- Fluffy Mod Manager by FluffyQuack (recommended installer, not bundled).
+
+This mod is an unofficial fan project. It is not affiliated with, endorsed
+by, or sponsored by CAPCOM Co., Ltd. or Sony Interactive Entertainment.
+RESIDENT EVIL / BIOHAZARD is a trademark of CAPCOM Co., Ltd.
+DualSense and PlayStation are trademarks of Sony Interactive Entertainment.
+No Capcom or Sony assets are redistributed with this package; all game
+audio is extracted locally from the user's own installed game files.
