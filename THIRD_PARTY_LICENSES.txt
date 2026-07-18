@@ -11,6 +11,21 @@ The package includes original healing cues generated with AI tools by the mod
 author, plus original synthesized haptic tones and haptic derivatives of those
 author-owned cues. These are mod assets, not Capcom or Sony audio assets.
 
+----------------------------------------------------
+Mod license
+----------------------------------------------------
+The mod itself - its scripts, compiled runtime components
+(DualSenseEnhancedTransport.exe, DualsenseAudioBridge.exe, the launcher
+plugin), configuration data, sound-event mappings, and the original mod
+audio assets described above - is Copyright (c) 2026 RomarioCyrus.
+All rights reserved.
+
+You may download and use the mod for personal play. Re-uploading,
+redistributing, repackaging, or including any part of it in another mod
+or tool requires the author's prior permission. The bundled third-party
+components listed below keep their own licenses, which apply only to
+those components.
+
 
 ----------------------------------------------------
 ree-pak-cli

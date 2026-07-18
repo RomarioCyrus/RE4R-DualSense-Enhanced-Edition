@@ -1,4 +1,0 @@
-LeftTrigger=Normal
-RightTrigger=VibrateTrigger
-VibrateTriggerIntensity=20
-ForceRightTrigger=(0)(0)(0)(0)(0)(0)(0)
