@@ -1,3 +1,5 @@
+<img width="1672" height="941" alt="Title" src="https://github.com/user-attachments/assets/54451d55-2c34-479d-9b98-1d7a348ec637" />
+
 # Resident Evil 4 - DualSense Enhanced Edition
 
 Resident Evil 4 Remake on PC ships with only a trimmed-down version of the
